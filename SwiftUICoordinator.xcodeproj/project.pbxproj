@@ -11,6 +11,12 @@
 		8535B63028976E6100CF3608 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535B62F28976E6100CF3608 /* ContentView.swift */; };
 		8535B63228976E6200CF3608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8535B63128976E6200CF3608 /* Assets.xcassets */; };
 		8535B63528976E6200CF3608 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8535B63428976E6200CF3608 /* Preview Assets.xcassets */; };
+		8535B63F28978C5100CF3608 /* AView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535B63E28978C5100CF3608 /* AView.swift */; };
+		8535B64128978C6100CF3608 /* BView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535B64028978C6100CF3608 /* BView.swift */; };
+		8535B64328978C7000CF3608 /* CView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535B64228978C7000CF3608 /* CView.swift */; };
+		8535B64528978C7F00CF3608 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535B64428978C7F00CF3608 /* Coordinator.swift */; };
+		8535B64828978C9800CF3608 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535B64728978C9800CF3608 /* Destination.swift */; };
+		8535B64B28978CC600CF3608 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8535B64A28978CC600CF3608 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		8535B62F28976E6100CF3608 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8535B63128976E6200CF3608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8535B63428976E6200CF3608 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8535B63E28978C5100CF3608 /* AView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AView.swift; sourceTree = "<group>"; };
+		8535B64028978C6100CF3608 /* BView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BView.swift; sourceTree = "<group>"; };
+		8535B64228978C7000CF3608 /* CView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CView.swift; sourceTree = "<group>"; };
+		8535B64428978C7F00CF3608 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		8535B64728978C9800CF3608 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
+		8535B64A28978CC600CF3608 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,9 @@
 			children = (
 				8535B62D28976E6100CF3608 /* SwiftUICoordinatorApp.swift */,
 				8535B62F28976E6100CF3608 /* ContentView.swift */,
+				8535B64628978C9300CF3608 /* Coordinator */,
+				8535B63D28978C4B00CF3608 /* Views */,
+				8535B64928978CBD00CF3608 /* Model */,
 				8535B63128976E6200CF3608 /* Assets.xcassets */,
 				8535B63328976E6200CF3608 /* Preview Content */,
 			);
@@ -65,6 +80,33 @@
 				8535B63428976E6200CF3608 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8535B63D28978C4B00CF3608 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8535B63E28978C5100CF3608 /* AView.swift */,
+				8535B64028978C6100CF3608 /* BView.swift */,
+				8535B64228978C7000CF3608 /* CView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8535B64628978C9300CF3608 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8535B64428978C7F00CF3608 /* Coordinator.swift */,
+				8535B64728978C9800CF3608 /* Destination.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8535B64928978CBD00CF3608 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8535B64A28978CC600CF3608 /* Product.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8535B64128978C6100CF3608 /* BView.swift in Sources */,
+				8535B64B28978CC600CF3608 /* Product.swift in Sources */,
 				8535B63028976E6100CF3608 /* ContentView.swift in Sources */,
+				8535B63F28978C5100CF3608 /* AView.swift in Sources */,
+				8535B64328978C7000CF3608 /* CView.swift in Sources */,
 				8535B62E28976E6100CF3608 /* SwiftUICoordinatorApp.swift in Sources */,
+				8535B64828978C9800CF3608 /* Destination.swift in Sources */,
+				8535B64528978C7F00CF3608 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +323,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +353,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
